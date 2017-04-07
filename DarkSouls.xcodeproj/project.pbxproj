@@ -12,6 +12,8 @@
 		9E9FECB61E855A8D00C36AC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E9FECB41E855A8D00C36AC4 /* Main.storyboard */; };
 		9E9FECB81E855A8D00C36AC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E9FECB71E855A8D00C36AC4 /* Assets.xcassets */; };
 		9E9FECBB1E855A8D00C36AC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E9FECB91E855A8D00C36AC4 /* LaunchScreen.storyboard */; };
+		9E9FECC71E85AE5E00C36AC4 /* Map.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E9FECC61E85AE5E00C36AC4 /* Map.storyboard */; };
+		9E9FECC91E85AE6900C36AC4 /* Boss.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E9FECC81E85AE6900C36AC4 /* Boss.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		9E9FECB71E855A8D00C36AC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E9FECBA1E855A8D00C36AC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9E9FECBC1E855A8D00C36AC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E9FECC61E85AE5E00C36AC4 /* Map.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Map.storyboard; sourceTree = "<group>"; };
+		9E9FECC81E85AE6900C36AC4 /* Boss.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Boss.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				9E9FECB71E855A8D00C36AC4 /* Assets.xcassets */,
 				9E9FECB91E855A8D00C36AC4 /* LaunchScreen.storyboard */,
 				9E9FECBC1E855A8D00C36AC4 /* Info.plist */,
+				9E9FECC61E85AE5E00C36AC4 /* Map.storyboard */,
+				9E9FECC81E85AE6900C36AC4 /* Boss.storyboard */,
 			);
 			path = DarkSouls;
 			sourceTree = "<group>";
@@ -125,7 +131,9 @@
 			files = (
 				9E9FECBB1E855A8D00C36AC4 /* LaunchScreen.storyboard in Resources */,
 				9E9FECB81E855A8D00C36AC4 /* Assets.xcassets in Resources */,
+				9E9FECC91E85AE6900C36AC4 /* Boss.storyboard in Resources */,
 				9E9FECB61E855A8D00C36AC4 /* Main.storyboard in Resources */,
+				9E9FECC71E85AE5E00C36AC4 /* Map.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +305,7 @@
 				9E9FECC11E855A8D00C36AC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
